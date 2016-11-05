@@ -17,8 +17,8 @@ pozwoli to stworzyc menu nawigacyjne samodzielnie z 3 odnosnikami-->
 <nav id="menu">
     <ul>
         <li class="menu-item"><a href="#">Home</a></li>
-        <li class="menu-item"><a href="O mnie">O mnie</a></li>
-        <li class="menu-item"><a href="Kontakt">Kontakt</a></li>
+        <li class="menu-item"><a href="#about">O mnie</a></li>
+        <li class="menu-item"><a href="#contact">Kontakt</a></li>
     </ul>
 </nav>
   
@@ -33,26 +33,30 @@ pozwoli to stworzyc menu nawigacyjne samodzielnie z 3 odnosnikami-->
  </header>
 <!-- Nagłówek strony - Stop  -->
 
-  <div id="about">
-    <div id="about-header">O mnie</div>
-    <div class="about-content">Front-end developer i project manager. Odpowiadał za realizację wielu projektów webowych dla klientów w Polski i zagranicy. Występował jako prelegent na spotkaniach WordUp, gdzie opowiadał o możliwościach systemu WordPress CMS przy tworzeniu stron internetowych.</div>
-    <br />
+<!-- section#about>h2.about-header{O mnie}+p.about-content*2 -->
+ 
+<!-- Sekcja o mnie - poczatek -->
+  <section id="about">
+      <center><h2 class="about-header">O mnie</h2></center>
+      <p class="about-content">Na imie mam Rafal, programowaniem w sumie zainteresowalem sie niedawno, jako alternatywa i zmiana obecnej sytuacji zyciowej</p>
+      <p class="about-content">testowo</p>
+  </section>
 
-    <div class="about-content"> Uważa, że każdy może zostać programistą, dlatego prowadzi warsztaty na uczelniach wyższych oraz w ramach projektu Codevenig, na których pokazuje jak funkcjonują współczesne strony internetowe.</div>
+<!-- Sekcja o mnie - koniec -->
+ 
+<!-- footer#contact>h2#contact-header{Kontkt}>address+a -->
 
-  </div>
-
-
-  <div id="contact">
-    <div id="contact-header">Kontakt</div>
-    <div id="contact-content">
-      Łukasz Badocha<br /> 
+<!-- Sekcja Kontakt - start -->
+<footer id="contact">
+    <h2 id="contact-header">Kontakt
+        <address> Łukasz Badocha<br /> 
       ul. Mostowa 6/13<br /> 
-      31-061 Kraków<br />
-      <a href="mailto:l.badocha@arena108.pl">l.badocha@arena108.pl</a>
-    </div>
-  </div>
-
+      31-061 Kraków<br /></address>
+        <a href="http://akademia108.pl">Akademia 108</a><br />
+        <a mailto="rafal.matalowski@gmail.com">rafal.matalowski@gmail.com</a>
+    </h2>
+</footer>
+<!-- Sekcja Kontakt - koniec-->
 </body>
 
 </html>
